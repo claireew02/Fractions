@@ -29,6 +29,13 @@ public class Fraction {
     public Fraction multiply(Fraction f) {
         return new Fraction(num*f.num, denom*f.denom);
     }
+
+    public Fraction inverse() {
+        int copy = num;
+        num = denom;
+        denom = copy;
+        return  new Fraction (num, denom);
+    }
 }
 
 
