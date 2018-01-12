@@ -11,6 +11,7 @@ public class Fraction {
         }
         this.num = num;
         this.denom = denom;
+        simplify();
     }
 
     public Fraction(int num) {
@@ -27,7 +28,7 @@ public class Fraction {
         this.denom = 0;
     }
 
-      public String toString() {
+    public String toString() {
         return num + " / " + denom;
      }
 
@@ -44,6 +45,18 @@ public class Fraction {
 
     public Fraction divide (Fraction f) {
         return new Fraction (num * f.denom, denom*f.num);
+    }
+
+    private void simplify() {
+        //find gcf
+        int min = Math.min(num, denom);
+        for (int i = min; i > 0; i--) {
+            if (num % i == 0 && denom % i == 0) {
+                num /= i;
+                denom /= i;
+                break;
+            }
+        }
     }
 
 }

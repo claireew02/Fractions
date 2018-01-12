@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba4348d3-5195-4a9e-9e15-cb6357618f39" name="Default" comment="added condition statement in the constructor">
+    <list default="true" id="ba4348d3-5195-4a9e-9e15-cb6357618f39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/code/Fraction.java" afterPath="$PROJECT_DIR$/src/code/Fraction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/code/Runner.java" afterPath="$PROJECT_DIR$/src/code/Runner.java" />
@@ -16,24 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/code/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="88">
+              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/code/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="238">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -65,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/code/Fraction.java" />
         <option value="$PROJECT_DIR$/src/code/Runner.java" />
+        <option value="$PROJECT_DIR$/src/code/Fraction.java" />
       </list>
     </option>
   </component>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515683786917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added condition statement in the constructor and try method in the runner">
+      <created>1515768612013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1515768612013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -329,7 +336,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Created a fraction class with constructors and added a multiply method." />
     <MESSAGE value="Created the inverse method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the inverse method" />
+    <MESSAGE value="added condition statement in the constructor and try method in the runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="added condition statement in the constructor and try method in the runner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -341,8 +349,8 @@
         <state relative-caret-position="544">
           <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -360,8 +368,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -379,8 +387,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -400,22 +408,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/Fraction.java">
+    <entry file="file://$PROJECT_DIR$/src/code/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/code/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
