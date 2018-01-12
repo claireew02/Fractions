@@ -47,16 +47,18 @@ public class Fraction {
         return new Fraction (num * f.denom, denom*f.num);
     }
 
-    private void simplify() {
-        //find gcf
-        int min = Math.min(num, denom);
-        for (int i = min; i > 0; i--) {
-            if (num % i == 0 && denom % i == 0) {
-                num /= i;
-                denom /= i;
-                break;
-            }
+    public static int gcf(int a, int b) {
+        int min = Math.min(a, b);
+        for (int i = min; i > 0; i --) {
+            if (a % i == 0 && b % i == 0) return i;
         }
+        return 1;
+    }
+
+    private void simplify() {
+        int factor = gcf(num, denom);
+        num /= factor;
+        denom /= factor;
     }
 
 }
