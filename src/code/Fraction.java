@@ -4,6 +4,11 @@ public class Fraction {
     private int num, denom;
 
     public Fraction (int num, int denom){
+        if (denom == 0) {
+            throw new IllegalArgumentException();
+        }
+        else {
+        }
         this.num = num;
         this.denom = denom;
     }
@@ -36,6 +41,11 @@ public class Fraction {
         denom = copy;
         return  new Fraction (num, denom);
     }
+
+    public Fraction divide (Fraction f) {
+        return new Fraction (num * f.denom, denom*f.num);
+    }
+
 }
 
 
